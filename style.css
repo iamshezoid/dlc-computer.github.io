@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background: url("wx.gif") center center
     background: url("wx.gif") center center no-repeat fixed;
     background-size: cover;
     background-color: #000000;
