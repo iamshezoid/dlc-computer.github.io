@@ -1,17 +1,19 @@
-body{
-  /* задаёт путь до файла */
-  background-image: url("gifка.gif");
-  /* задает стартовое положение изображения на странице */
-  background-position: center center;
-  /* определяет размер изображения на странице */
-  background-size: cover;
-  /* свойство устанавливает, будет ли повторяться изображение и каким образом */
-  background-repeat: no-repeat;
-  /* cвойство определяет, будет ли фоновое изображение прокручиваться 
-  вместе с остальной частью страницы или будет фиксированным */
-  background-attachment: fixed;
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url("wx.gif") center center no-repeat fixed;
+    background-size: cover;
+    background-color: #000000;
+}
 
-  /* возможна также и короткая запись данных свойств */
-  // background: url("gifка.gif") center center no-repeat  fixed;
-  // background-size: cover;
+#play-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
 }
